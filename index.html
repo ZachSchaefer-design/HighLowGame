@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Low Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>High-Low Game</h1>
+        <div class="deck-area">
+            <div class="deck">Deck: <span id="deck-count">52</span></div>
+            <div class="discard">Discard Pile: <span id="discard-count">0</span></div>
+        </div>
+        <div class="face-up-cards" id="face-up-cards">
+            <!-- Cards will be dynamically added here -->
+        </div>
+        <div class="controls">
+            <button id="guess-higher">Higher</button>
+            <button id="guess-lower">Lower</button>
+            <button id="guess-equal">Equal</button>
+        </div>
+        <div class="status">
+            <p id="status-message">Make a guess to start the game!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
